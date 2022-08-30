@@ -1,0 +1,91 @@
+    @import url(reset/reset.css);
+    .wrapper {
+        width: 1200px;
+        margin: 5px auto;
+        background: lime;
+        min-height: 100px;
+    }
+    
+    .float {
+        float: left;
+    }
+    
+    .clearfix:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    
+    * {
+        outline: 1px solid red;
+    }
+    
+    .black {
+        background: black;
+    }
+    
+    .pink {
+        background: pink;
+    }
+    
+    .white {
+        background: white;
+    }
+    
+    .grey {
+        background: grey;
+    }
+    
+    .w200 {
+        width: 200px;
+    }
+    
+    .w300 {
+        width: 300px;
+    }
+    
+    .w400 {
+        width: 400px;
+    }
+    
+    .w600 {
+        width: 600px;
+    }
+    
+    .w800 {
+        width: 800px;
+    }
+    
+    .h30 {
+        height: 30px;
+    }
+    
+    .h40 {
+        height: 40px;
+    }
+    
+    .h45 {
+        height: 45px;
+    }
+    
+    .h60 {
+        height: 60px;
+    }
+    
+    .h90 {
+        height: 90px;
+    }
+    
+    .h120 {
+        height: 120px;
+    }
+    
+    .imgclear {
+        font-size: 35px;
+    }
+    
+    img {
+        float: left;
+        border: 2px double rgb(114, 25, 108);
+        border-radius: 10px;
+    }
